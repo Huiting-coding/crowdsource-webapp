@@ -265,7 +265,7 @@ class Tasks extends Component {
             this.state.tasks.map((task, index) => {
               // let self =this;
               return (
-                <option key={"task_" + task.id} >{task.id}
+                <option key={"task_" + task.id} value={task.id} >（{task.id}） {task.title}
                 </option>
               )
 
